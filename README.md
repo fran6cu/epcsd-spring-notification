@@ -25,7 +25,7 @@ To execute this microservice:
 1. Download project repo to the local machine with git `clone command`
 2. Build maven project with command `mvn clean install`
 3. Locate JAR packet and execute with java -jar packet-name.jar 
-        `$>java -jar 0.0.1-PRAC2.jar`
+        `$>java -jar notification-0.0.1-PRAC2.jar`
 
 **ALL** this steps can be done using IDE.
 
