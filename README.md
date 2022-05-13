@@ -12,7 +12,7 @@ To execute this microservice:
  ```
 2. Be sure you have docker and docker-compose binaries installed and working
 3. Execute from local path command 'docker-compose up', wait until all containers are up.
-   ` $>docker-compose up`
+   ``` $>docker-compose up ```
     
     - Zookeeper
     - Kafka
