@@ -12,14 +12,19 @@ To execute this microservice:
  ```
 2. Be sure you have docker and docker-compose binaries installed and working
 3. Execute from local path command 'docker-compose up', wait until all containers are up.
-   ``` $>docker-compose up ```
+   ``` 
+   docker-compose up 
+   ```
     
     - Zookeeper
     - Kafka
     - Postgresql
     - Adminer
 
-4. Verify docker containers with command `docker ps`
+4. Verify docker containers are running with command 
+``` 
+docker ps
+``` 
 
 
 ### Steps to build this artifact:
@@ -28,9 +33,14 @@ To execute this microservice:
 ```
    git clone https://github.com/fran6cu/epcsd-spring-notification.git
 ```
-2. Build maven project with command `mvn clean install`
-3. Locate JAR packet and execute with java -jar packet-name.jar 
-        `$>java -jar notification-0.0.1-PRAC2.jar`
+2. Build maven project with command 
+``` 
+mvn clean install
+``` 
+4. Locate JAR packet and execute with java -jar packet-name.jar
+```  
+   java -jar notification-0.0.1-PRAC2.jar
+``` 
 
 **ALL** this steps can be done using IDE.
 
