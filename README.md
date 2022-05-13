@@ -23,6 +23,7 @@ To execute this microservice:
 ### Steps to build this artifact:
 
 1. Download project repo to the local machine with git `clone command`
+  ` git clone https://github.com/fran6cu/epcsd-spring-notification.git`
 2. Build maven project with command `mvn clean install`
 3. Locate JAR packet and execute with java -jar packet-name.jar 
         `$>java -jar notification-0.0.1-PRAC2.jar`
