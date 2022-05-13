@@ -39,7 +39,7 @@ mvn clean install
 ``` 
 4. Locate JAR packet and execute with java -jar packet-name.jar
 ```  
-   java -jar notification-0.0.1-PRAC2.jar
+   target/java -jar notification-0.0.1-PRAC2.jar
 ``` 
 
 **ALL** this steps can be done using IDE.
