@@ -8,7 +8,7 @@ To execute this microservice:
 
 1. Download to local machine docker-compose descriptors with git clone command (https://github.com/ppinedar/epcsd-spring)
  ```
-    `$> git clone https://github.com/ppinedar/epcsd-spring.git`
+   git clone https://github.com/ppinedar/epcsd-spring.git
  ```
 2. Be sure you have docker and docker-compose binaries installed and working
 3. Execute from local path command 'docker-compose up', wait until all containers are up.
@@ -26,7 +26,7 @@ To execute this microservice:
 
 1. Download project repo to the local machine with git clone command
 ```
-  ` git clone https://github.com/fran6cu/epcsd-spring-notification.git`
+   git clone https://github.com/fran6cu/epcsd-spring-notification.git
 ```
 2. Build maven project with command `mvn clean install`
 3. Locate JAR packet and execute with java -jar packet-name.jar 
